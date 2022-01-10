@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="feherto.css">
+        <link rel="stylesheet" href="loading.css">
+        <link rel="stylesheet" href="ldiv.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark  style="width: 100%;>
+            <div class="container-fluid">
+              <a class="navbar-brand brand-logo" href="index.html"><img src="logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Kezdőlap</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="latnivalok.html">Látnivalók</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gili.html">Hírességek</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Keresés" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Keresés</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <h1 class="display-5">Kezdőlap</h1>
+          <p>A település a Nyírség Hajdúság felé tekintő peremén, Szabolcs-Szatmár-Bereg megye dél-nyugati részén fekszik, két nagyváros, Debrecen és Nyíregyháza között.
+             A város 14 ezer hektárt kitevő határában előkerült régészeti leletek több mint ötezer éves múltról tanúskodnak, ám a mai település lényegileg egyidős a hajdúvárosokkal. Újfehértó központja az elmúlt évek város-rehabilitációs tevékenysége során látványosan megszépült. Utak, épületek, közintézmények újultak meg, modernizációs és korszerűsítő beruházások történtek. Körültekintve Újfehértón, minden jelentős épülete legalább helyi védelmet élvez, és a közelmúltban felújításra került. Ezek, és a városközpont többi látnivalóját alkotó köztéri szobrok, emlékművek, valamint a Főtér évszázados gesztenyefasora élvezetes helytörténeti séta helyszínéül szolgálnak. A városkép meghatározó elemei a XIX-XX. század fordulóján épültek.
+          </p>
+          <div id="cimer"><img src="cimer.png" alt="címer" class="center" id="kep"></div>
+          <div class="loading-wrapper">
+            <div class="lszöveg">Csatlakozás Újfehértó szervereihez</div>
+            <div class="dot-falling toltogenyo"></div>
+          </div>
+        <script>
+            $(".loading-wrapper").delay(10000).fadeOut(500);
+        </script>
+    </body>
+</html>

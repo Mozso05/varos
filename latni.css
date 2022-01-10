@@ -1,0 +1,46 @@
+﻿body {
+    background-color: #005ca1;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-size: 13pt;
+    text-align: center;
+    color: floralwhite;
+}
+
+b {
+    text-align: center;
+    color: floralwhite;
+}
+
+li {
+    text-align: left;
+    color: floralwhite;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sport {
+    text-align: center;
+ }
+ 
+ #kep {
+     margin-top: 15pt;
+     width: 40%;
+     margin-bottom: 20pt;
+ }
+
+#link {
+    color: rgb(0, 0, 0);
+    margin-left: 20pt;
+    font-size: 15pt;
+}

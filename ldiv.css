@@ -1,0 +1,26 @@
+.loading-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fccc5d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lszöveg {
+    font-family: 'Dancing Script', cursive;
+    color: #990c0c;
+    font-size: 50px;
+    margin-bottom: 15%;
+}
+
+.toltogenyo {
+    margin-left: 50%;
+}
+
+.lszöveg, .toltogenyo {
+    position: fixed;
+}
